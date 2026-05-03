@@ -24,5 +24,5 @@ xemoji
 ```
 
 ### Credits
-[getemoji.com](https://getemoji.com/)
+[getemoji.com](https://getemoji.com/) <br>
 [nerdfonts.ytyng.com](https://nerdfonts.ytyng.com/)
