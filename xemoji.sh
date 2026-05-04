@@ -56,7 +56,5 @@ item="$(
 [[ -z "${item}" ]] && exit 0
 
 echo -e "\n\033[1;34m[*] \033[0mSelected: \033[0;32m${item}\033[0m"
-read -rp "$(echo -e "\033[0mPress \033[0;32mENTER \033[0mto copy...")"
-
 echo -ne "${item}" | command xclip -selection clipboard
 echo -e "\033[0;32m[+] \033[0mCopied to clipboard${N}"
